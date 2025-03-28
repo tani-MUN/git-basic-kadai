@@ -1,0 +1,15 @@
+tanigashirayuta@tanigashirayuutanoMacBook-Air ~ % cd /Users/tanigashirayuta/Desktop/samurai-terakoya
+tanigashirayuta@tanigashirayuutanoMacBook-Air samurai-terakoya % mkdir git_challenge
+tanigashirayuta@tanigashirayuutanoMacBook-Air samurai-terakoya % cd git_challenge
+tanigashirayuta@tanigashirayuutanoMacBook-Air git_challenge % touch hello_world.txt
+tanigashirayuta@tanigashirayuutanoMacBook-Air git_challenge % git add hello_world.txt
+tanigashirayuta@tanigashirayuutanoMacBook-Air git_challenge % git commit -m "hello_world.txtを追加"
+[fix2 a3595be] hello_world.txtを追加
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+tanigashirayuta@tanigashirayuutanoMacBook-Air git_challenge % git add hello_world.txt
+tanigashirayuta@tanigashirayuutanoMacBook-Air git_challenge % git commit -m "日本語訳を追記"
+[fix2 a43e0ec] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+tanigashirayuta@tanigashirayuutanoMacBook-Air git_challenge % git log --oneline
+a43e0ec (HEAD -> fix2) 日本語訳を追記
+a3595be hello_world.txtを追加
